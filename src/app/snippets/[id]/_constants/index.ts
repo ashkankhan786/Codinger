@@ -10,6 +10,7 @@ import rust from "react-syntax-highlighter/dist/esm/languages/hljs/rust";
 import swift from "react-syntax-highlighter/dist/esm/languages/hljs/swift";
 import csharp from "react-syntax-highlighter/dist/esm/languages/hljs/csharp";
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const languageMap: Record<string, any> = {
   javascript: js,
   typescript: ts,
@@ -23,3 +24,4 @@ export const languageMap: Record<string, any> = {
   swift: swift,
   csharp: csharp,
 };
+/* eslint-enable @typescript-eslint/no-explicit-any */

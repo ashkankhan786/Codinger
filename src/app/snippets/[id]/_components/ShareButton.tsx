@@ -1,12 +1,5 @@
 "use client";
-import {
-  Facebook,
-  Instagram,
-  Linkedin,
-  Mail,
-  Share,
-  Twitter,
-} from "lucide-react";
+import { Facebook, Linkedin, Mail, Share, Twitter } from "lucide-react";
 import React, { useState } from "react";
 import toast from "react-hot-toast";
 import { RiWhatsappFill } from "react-icons/ri";
